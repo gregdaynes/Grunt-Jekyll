@@ -1,0 +1,35 @@
+# Dev stuff
+markdown:  rdiscount
+safe:      true
+lsi:       false
+pygments:  true
+exclude: ['node_modules', 'Gruntfile.js', 'package.json']
+
+# Site stuff
+permalink: /:categories/:title
+charset:   utf-8
+baseurl:   /
+url:       
+
+# Specific stuff
+version:      0.0.1
+date:         0000-00-00
+language:     en-GB
+license:      Apache License v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+name:         testing
+name_short:   
+tagline:      
+color:        
+email:        
+# Copyright: company or name to copyright year is generated from date above.
+copyright:    Gregory Daynes
+
+google:       UA-XXXXXXXX-X
+creator:      Gregory Daynes
+publisher:    
+keywords:     
+description:  
+twitter:      
+twitter_card: 
+title-delimiter: ' • '

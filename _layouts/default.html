@@ -1,0 +1,21 @@
+{% include html/doctype.html %}
+{% include html/conditional.html %}
+{% include html/license.html %}
+{% include html/head.html %}
+{% include html/head.mobile.html %}
+{% include html/graph.html %}
+{% include html/grumpicon.html %}
+
+<body>
+  
+  {% include elements/header.html %}
+  
+  {% include elements/nav.html %}
+  
+  {{content}}
+  
+  {% include elements/footer.html %}
+  
+  {% include html/scripts.html %}
+  
+  {% include html/analytics.html %}
